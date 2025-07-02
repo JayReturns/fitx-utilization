@@ -49,7 +49,8 @@ def send_to_home_assistant(sensor, percentage):
     'state': percentage,
     'attributes': {
       'friendly_name': sensor,
-      'unit_of_measurement': '%'
+      'unit_of_measurement': '%',
+      'icon': 'mdi:weight-lifter'
     }
   }
 
